@@ -5,14 +5,12 @@
   "author": "mr_squall <squalsoft@gmail.com>",
   "private": true,
   "scripts": {
-    "dev":
-      "webpack-dev-server  --hot --inline --progress --config Scripts/build/webpack.dev.conf.js",
+    "dev": "webpack-dev-server  --hot --inline --progress --config Scripts/build/webpack.dev.conf.js",
     "start": "npm run dev",
     "unit": "jest --config Scripts/test/unit/jest.conf.js --coverage",
     "e2e": "node Scripts/test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
-    "lint":
-      "eslint --ext .js,.vue Scripts/ Scripts/test/unit Scripts/test/e2e/specs",
+    "lint": "eslint --ext .js,.vue Scripts/ Scripts/test/unit Scripts/test/e2e/specs",
     "build": "node Scripts/build/build.js"
   },
   "dependencies": {
@@ -63,7 +61,7 @@
     "html-webpack-plugin": "^2.30.1",
     "jest": "^22.0.4",
     "jest-serializer-vue": "^0.3.0",
-    "jquery": "^2.2.1",
+    "jquery": "3.3.1",
     "less": "^3.0.0",
     "less-loader": "^4.0.5",
     "nightwatch": "^0.9.12",
