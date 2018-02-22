@@ -1,0 +1,5 @@
+/Scripts//build/
+/Scripts//config/
+/wwwroot/dist/
+/*.js
+/Scripts/test/unit/coverage/
